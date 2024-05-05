@@ -5,8 +5,8 @@ import styles from "./fifth.module.css";
 
 export default function FifthPart() {
   return (
-    <div className="grid grid-cols-12 gap-4 bg-black w-full relative blur-effect pt-[10%]">
-      <div className="col-span-12 2xl:col-span-4 flex flex-col">
+    <section className="grid grid-cols-12 gap-4 bg-black w-full relative blur-effect pt-[10%]">
+      <article className="col-span-12 2xl:col-span-4 flex flex-col">
         <h1 className="mt-[5%] 2xl:ml-[45%] z-20 text-white font-monument-regular text-[38px]
            w-full 2xl:w-[90vw] uppercase text-center 2xl:text-left">
           Token
@@ -29,8 +29,8 @@ export default function FifthPart() {
           unparalleled access to our Launchpad, AI tools, and exclusive
           pre-launch investment prospects.
         </p>
-      </div>
-      <div className="col-span-12 2xl:col-span-4 flex flex-col">
+      </article>
+      <article className="col-span-12 2xl:col-span-4 flex flex-col">
         <h1 className="mt-[5%] 2xl:ml-[25%] z-20 text-white font-monument-regular text-[38px] uppercase 
           text-center 2xl:text-left w-full 2xl:w-[90vw]">
           Revenue
@@ -53,8 +53,8 @@ export default function FifthPart() {
           development of AI tools, ensuring a steady revenue stream, all while
           allowing early investors to enjoy the benefits of their support.
         </p>
-      </div>
-      <div className="col-span-12 2xl:col-span-4 flex flex-col">
+      </article>
+      <article className="col-span-12 2xl:col-span-4 flex flex-col">
         <h1 className="mt-[5%] 2xl:ml-[6%] z-20 text-white font-monument-regular text-[38px] uppercase
         text-center 2xl:text-left w-full 2xl:w-[90vw]">
           Launchpad
@@ -79,7 +79,7 @@ export default function FifthPart() {
           and CREON token holders early access to innovative and promising AI
           endeavors.
         </p>
-      </div>
-    </div>
+      </article>
+    </section>
   );
 }

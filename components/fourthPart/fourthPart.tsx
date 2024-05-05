@@ -21,8 +21,8 @@ export default function FourthPart() {
   }, [activeSection]);
 
   return (
-    <div className="grid grid-cols-12 gap-4 bg-black w-full relative blur-effect pt-[10%]">
-      <div className="col-span-12 2xl:col-span-6 flex flex-col">
+    <section className="grid grid-cols-12 gap-4 bg-black w-full relative blur-effect pt-[10%]">
+      <article className="col-span-12 2xl:col-span-6 flex flex-col">
         <h1 className="mt-[15%] ml-[15%] 2xl:ml-[30%] z-20 text-white font-monument-regular 
         text-[28px] 2xl:text-[38px] w-[40vw] uppercase">
           Our vision is to support the innovation of AI blockchain projects
@@ -38,7 +38,7 @@ export default function FourthPart() {
           height={512}
           className="ml-0 lg:ml-[15%] 2xl:ml-[40%]"
         />
-      </div>
+      </article>
       <div className="col-span-12 2xl:col-span-6">
         <div className="accordion pt-24">
           <div
@@ -215,6 +215,6 @@ export default function FourthPart() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

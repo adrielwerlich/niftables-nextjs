@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function SixthPart() {
   return (
-    <div className="grid grid-rows-3 grid-cols-2 gap-4 bg-black w-full relative blur-effect pt-[10%]">
-      <div className="row-span-1 col-span-2 flex flex-col items-center lg:flex-row">
+    <section className="grid grid-rows-3 grid-cols-2 gap-4 bg-black w-full relative blur-effect pt-[10%]">
+      <article className="row-span-1 col-span-2 flex flex-col items-center lg:flex-row">
         <div className=" flex flex-col text-white w-2/4 2xl:w-2/3 pl-[6%] 2xl:pl-[15%]">
           <h1 className="mt-[5%] z-20 text-white font-monument-regular text-[22px] 2xl:text-[38px] uppercase">
             AI Prospects, Market Size, and Development Pace
@@ -27,8 +27,8 @@ export default function SixthPart() {
           alt="Image for first row"
           className="mt-10 2xl:mt-0"
         />
-      </div>
-      <div className="row-span-1 col-span-2 flex flex-col items-center lg:flex-row">
+      </article>
+      <article className="row-span-1 col-span-2 flex flex-col items-center lg:flex-row">
         <div className=" flex flex-col text-white w-2/4 2xl:w-2/3 pl-[6%] 2xl:pl-[15%]">
           <h1 className="mt-[5%] z-20 text-white font-monument-regular text-[22px] 2xl:text-[38px] uppercase">
             AI Tools and Market
@@ -50,8 +50,8 @@ export default function SixthPart() {
           alt="Image for second row"
           className="mt-10 2xl:mt-0"
         />
-      </div>
-      <div className="row-span-1 col-span-2 flex flex-col items-center lg:flex-row">
+      </article>
+      <article className="row-span-1 col-span-2 flex flex-col items-center lg:flex-row">
         <div className=" flex flex-col text-white w-2/4 2xl:w-2/3 pl-[6%] 2xl:pl-[15%]">
           <h1 className="mt-[5%] z-20 text-white font-monument-regular text-[22px] 2xl:text-[38px] uppercase">
             AI, Crypto, and NFT Market
@@ -76,7 +76,7 @@ export default function SixthPart() {
           alt="Image for third row"
           className="mt-10 2xl:mt-0"
         />
-      </div>
-    </div>
+      </article>
+    </section>
   );
 }

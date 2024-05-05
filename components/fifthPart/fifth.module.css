@@ -1,3 +1,4 @@
 .badgeCommingSoon {
-  @apply bg-white text-black rounded-2xl p-1 w-[38px] h-[14px] text-[10px] bottom-[100%] relative font-satoshi-bold;
+  @apply bg-white text-black rounded-2xl p-1 w-[38px] h-[14px] text-[10px] bottom-[100%] 
+  relative font-satoshi-bold;
 }
