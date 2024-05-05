@@ -1,0 +1,7 @@
+.badgeSoon {
+  @apply bg-black text-purple-500 rounded-2xl p-1 m-1 w-[38px] h-[14px] text-[10px] bottom-2 relative font-satoshi-bold;
+}
+
+.link {
+  @apply text-white hover:text-red-500 font-satoshi-bold text-lg;
+}

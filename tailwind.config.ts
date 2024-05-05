@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        'satoshi-regular': ['Satoshi-Regular', 'sans-serif'],
+        'satoshi-medium': ['Satoshi-Medium', 'sans-serif'],
+        'satoshi-bold': ['Satoshi-Bold', 'sans-serif'],
+        'monument-regular': ['MonumentExtended-Regular', 'sans-serif'],
+        
+        
+      },
     },
   },
   plugins: [],
