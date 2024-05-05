@@ -24,8 +24,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    overflow-x: hidden;
-    overflow-y: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 @layer utilities {
@@ -35,39 +35,39 @@ body {
 }
 
 @font-face {
-  font-family: 'Satoshi-Regular';
-  src: url('/assets/fonts/Satoshi-Regular.woff2') format('woff2');
+  font-family: "Satoshi-Regular";
+  src: url("/assets/fonts/Satoshi-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Satoshi-Medium';
-  src: url('/assets/fonts/Satoshi-Medium.woff2') format('woff2');
+  font-family: "Satoshi-Medium";
+  src: url("/assets/fonts/Satoshi-Medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Satoshi-Bold';
-  src: url('/assets/fonts/Satoshi-Bold.woff2') format('woff2');
+  font-family: "Satoshi-Bold";
+  src: url("/assets/fonts/Satoshi-Bold.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'MonumentExtended-Regular';
-  src: url('/assets/fonts/MonumentExtended-Regular.woff2') format('woff2');
+  font-family: "MonumentExtended-Regular";
+  src: url("/assets/fonts/MonumentExtended-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 .text-gradient {
-  background: linear-gradient(to right, #3D8BFF, #AB23FF);
+  background: linear-gradient(to right, #3d8bff, #ab23ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -76,12 +76,13 @@ body {
   padding: 1px 0;
 }
 
-.gradient-border::before, .gradient-border::after {
+.gradient-border::before,
+.gradient-border::after {
   content: "";
   position: absolute;
   height: 2px;
   width: 100%;
-  background: linear-gradient(to right, #3D8BFF, #AB23FF);
+  background: linear-gradient(to right, #3d8bff, #ab23ff);
 }
 
 .gradient-border::before {
@@ -94,10 +95,9 @@ body {
 }
 
 .gradient-button {
-  background: linear-gradient(to right, #3D8BFF, #AB23FF);
+  background: linear-gradient(to right, #3d8bff, #ab23ff);
   @apply w-[80%] sm:w-[353px] h-[44px] lg:w-[453px] lg:h-[54px] ml-[12%] sm:ml-[20%] md:ml-[30%] mt-[4%] bg-white py-[10px] 
   px-[20px] text-center border-none no-underline inline-block text-base m-1 cursor-pointer rounded-md;
-
 }
 
 .accordion {
@@ -105,17 +105,11 @@ body {
 }
 
 .accordion-section {
-  @apply mb-[10px] flex flex-col w-[82%] 2xl:w-[500px]; 
+  @apply mb-[10px] flex flex-col w-[82%] 2xl:w-[500px];
 }
 
 .accordion-title {
-  display: block;
-  background: transparent;
-  padding: 10px 15px;
-  cursor: pointer;
-  text-decoration: none;
-  border: none;
-  color: white;
+  @apply block bg-transparent text-white py-[10px] px-[15px] cursor-pointer no-underline border-none;
 }
 
 .accordion-content {

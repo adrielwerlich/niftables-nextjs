@@ -16,7 +16,7 @@ export default function Top() {
 
       <h1 className="absolute top-[10%] sm:top-[15%] lg:top-[30%] 2xl:top-[55%] text-white font-monument-regular 
         text-[18px] sm:text-[20px] md:text-[30px] 2xl:text-[50px] w-[80%] uppercase">
-        The world's first platform for Tokenizing AI blockchain projects
+        The world&apos;s first platform for Tokenizing AI blockchain projects
       </h1>
 
       <h2 className="absolute top-[16%] sm:top-[22%] md:top-[28%] lg:top-[42%] 2xl:top-[70%] 
