@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function FourthPart() {
   const [activeSection, setActiveSection] = useState<string | null>(null);
-  const contentRef = useRef(null);
+  const contentRef = useRef<HTMLElement | null>(null);
 
   const toggleSection = (section: string) => {
     setActiveSection(activeSection === section ? null : section);
